@@ -1,0 +1,39 @@
+html {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+
+}
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.regCont{
+    width: 40%;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lineCont{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.itemCont{
+    width: 30%;
+    margin-left: 30px;
+}
+
+label{
+    font-weight: bold;
+}
